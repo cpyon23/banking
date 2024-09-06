@@ -11,6 +11,7 @@ export const signIn = async ({ email, password }: signInProps) => {
 
         const response = await account.createEmailPasswordSession(email, password)
 
+        console.log(parseStringify(response))
         return parseStringify(response);
     } catch (error) {
         console.error('Error', error)
