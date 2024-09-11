@@ -14,6 +14,7 @@ Chart.js
 ShadCN
 
 🔋 Features
+-----
 👉 Authentication: An ultra-secure SSR authentication with proper validations and authorization
 
 👉 Connect Banks: Integrates with Plaid for multiple bank account linking
@@ -57,7 +58,7 @@ npm install
 Set Up Environment Variables
 
 Create a new file named .env in the root of your project and add the following content:
-
+```
 #NEXT
 NEXT_PUBLIC_SITE_URL=
 
@@ -82,6 +83,7 @@ DWOLLA_KEY=
 DWOLLA_SECRET=
 DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
 DWOLLA_ENV=sandbox
+```
 Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the Appwrite, Plaid and Dwolla
 
 Running the Project
