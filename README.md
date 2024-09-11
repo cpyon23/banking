@@ -1,10 +1,6 @@
 🤖 Introduction
 Built with Next.js, Horizon is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 34k+ members. It's a place where people help each other out.
-
-
-
 ⚙️ Tech Stack
 Next.js
 TypeScript
@@ -16,6 +12,7 @@ Zod
 TailwindCSS
 Chart.js
 ShadCN
+
 🔋 Features
 👉 Authentication: An ultra-secure SSR authentication with proper validations and authorization
 
@@ -47,13 +44,16 @@ Node.js
 npm (Node Package Manager)
 Cloning the Repository
 
-git clone https://github.com/adrianhajdin/banking.git
+```
+git clone https://github.com/cpyon23/banking
 cd banking
+```
 Installation
 
 Install the project dependencies using npm:
-
+```
 npm install
+```
 Set Up Environment Variables
 
 Create a new file named .env in the root of your project and add the following content:
@@ -85,6 +85,7 @@ DWOLLA_ENV=sandbox
 Replace the placeholder values with your actual respective account credentials. You can obtain these credentials by signing up on the Appwrite, Plaid and Dwolla
 
 Running the Project
-
+```
 npm run dev
+```
 Open http://localhost:3000 in your browser to view the project.
